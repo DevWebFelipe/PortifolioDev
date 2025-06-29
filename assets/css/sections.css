@@ -116,6 +116,10 @@
       border-radius: 8px;
       width: 100%;
     }
+
+    &:hover {
+      border: solid 2px var(--gray-200);
+    }
   }
 }
 
@@ -191,9 +195,32 @@
         gap: 8px;
 
         /*justify-content: space-between;*/
-        img {
-          height: 28px;
-          width: 28px;
+        .icon-mail {
+          height: 32px;
+          width: 32px;
+          background-image: url("../icons/EnvelopeSimple.svg");
+          transition: background-image 0.3s;
+        }
+
+        .icon-instagram {
+          height: 32px;
+          width: 32px;
+          background-image: url("../icons/InstagramLogo.svg");
+          transition: background-image 0.3s;
+        }
+
+        .icon-github {
+          height: 32px;
+          width: 32px;
+          background-image: url("../icons/GitHub.svg");
+          transition: background-image 0.3s;
+        }
+
+        .icon-linkedeen {
+          height: 32px;
+          width: 32px;
+          background-image: url("../icons/LinkedinLogo.svg");
+          transition: background-image 0.3s;
         }
 
         .external-icon {
@@ -207,8 +234,26 @@
           transition: background-image 0.3s;
         }
 
-        &:hover .external-icon {
-          background-image: url("../icons/ArrowUpRightHover.svg");
+        &:hover {
+          .icon-instagram {
+            background-image: url("../icons/InstagramLogoHover.svg");
+          }
+
+          .icon-linkedeen {
+            background-image: url("../icons/LinkedinLogoHover.svg");
+          }
+
+          .icon-github {
+            background-image: url("../icons/GitHubHover.svg");
+          }
+
+          .icon-mail {
+            background-image: url("../icons/EnvelopeSimpleHover.svg");
+          }
+
+          .external-icon {
+            background-image: url("../icons/ArrowUpRightHover.svg");
+          }
         }
       }
     }

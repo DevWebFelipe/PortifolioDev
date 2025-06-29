@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  /*padding: 0 1rem;*/
+  max-width: 1366px;
   text-align: center;
 
   background-color: var(--bg-color);
