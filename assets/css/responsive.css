@@ -85,4 +85,8 @@
   .section-services .card {
     width: 100%;
   }
+
+  .section-hero .scroll-indicator img {
+    margin-bottom: 40px;
+  }
 }
