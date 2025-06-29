@@ -19,6 +19,7 @@
   --gray-400: #292c34;
   --gray-500: #16181d;
   --gray-600: #0d0e11;
+  --bg-color: #16181d;
 
   /* fontes */
   --font-family-title: "Asap", sans-serif;
@@ -60,12 +61,9 @@
 }
 
 body {
-  background-color: var(--gray-600);
-}
-
-img {
-  width: 100vw;
-  object-fit: cover;
+  background-color: var(--bg-color);
+  font: var(--text-md);
+  color: var(--gray-200);
 }
 
 ul {

@@ -1,5 +1,92 @@
 #header {
   height: 100vh;
-  background-image: url(../img/Background_Intro.png);
-  background-size: contain;
+  display: block;
+  text-align: center;
+
+  background-image: url("../img/Background_Intro.png"); /* ajuste o caminho */
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain; /* ou: contain, se preferir ver tudo */
+  background-attachment: scroll; /* garante que a imagem role junto com a página */
+
+  ul {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+
+    li {
+      display: flex;
+      font: var(--text-md);
+      img {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+}
+
+.panel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--gray-400);
+  padding-block: 8px;
+  padding-inline: 16px;
+  border-radius: 20px;
+}
+
+.profile-container {
+  max-width: 680px;
+  margin: 0 auto 80px auto;
+  padding-top: 120px;
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .photo-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 56px;
+
+    .profile-photo {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: 2px solid #f7768e;
+      object-fit: cover;
+    }
+
+    .dev-icon {
+      position: absolute;
+      bottom: 0;
+      right: -10px;
+      width: 31px;
+      height: 25px;
+    }
+  }
+}
+
+.scroll-down img {
+  margin-top: 94px;
+  width: 24px;
+  animation: bounce 2s infinite;
+  opacity: 0.6;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(8px);
+  }
 }
