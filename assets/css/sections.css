@@ -52,6 +52,7 @@
 
   ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: var(--spacing-md);
 
@@ -135,7 +136,9 @@
 
   .grid {
     text-align: left;
-    margin-inline: 80px;
+    margin-inline: auto;
+    width: 100%;
+    max-width: 1200px;
 
     .card {
       background: var(--gray-600);
