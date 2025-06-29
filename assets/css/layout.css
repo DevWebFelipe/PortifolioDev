@@ -1,0 +1,13 @@
+.container {
+  margin: 0 auto;
+  /*padding: 0 1rem;*/
+  text-align: center;
+
+  background-color: var(--bg-color);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  gap: var(--spacing-lg);
+}

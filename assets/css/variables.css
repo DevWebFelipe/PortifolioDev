@@ -1,10 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
+  /* espaçamentos */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+
   /* cores principais */
   --red: #e3646e;
   --purple: #bb72e9;
@@ -20,6 +19,9 @@
   --gray-500: #16181d;
   --gray-600: #0d0e11;
   --bg-color: #16181d;
+  --color-primary: #4f46e5;
+  --color-secondary: #9333ea;
+  --color-background: #ffffff;
 
   /* fontes */
   --font-family-title: "Asap", sans-serif;
@@ -34,42 +36,4 @@
 
   --text-md: 400 16px/140% var(--font-family-text);
   --text-sm: 400 14px/140% var(--font-family-text);
-}
-
-.title-lg {
-  font: var(--title-lg);
-}
-
-.title-md {
-  font: var(--title-md);
-}
-
-.title-sm {
-  font: var(--title-sm);
-}
-
-.subtitle {
-  font: var(--subtitle);
-}
-
-.text-sm {
-  font: var(--text-sm);
-}
-
-.text-md {
-  font: var(--text-md);
-}
-
-body {
-  background-color: var(--bg-color);
-  font: var(--text-md);
-  color: var(--gray-200);
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
 }
