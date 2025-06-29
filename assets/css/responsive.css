@@ -36,6 +36,10 @@
 }
 
 @media (max-width: 768px) {
+  .section-hero {
+    margin-top: 40px;
+  }
+
   h1 {
     font-size: 2rem;
   }
