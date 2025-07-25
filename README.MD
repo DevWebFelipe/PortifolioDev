@@ -72,8 +72,7 @@ Sou desenvolvedor apaixonado por tecnologia e boas práticas de código. Tenho f
 git clone https://github.com/DevWebFelipe/portfolio
 ```
 
-📬 Contato
-Entre em contato para feedbacks, dúvidas ou colaborações:
+📬 Entre em contato para feedbacks, dúvidas ou colaborações:
 
 - 📧 felipe.flptxr@gmail.com
 - 📱 (48) 99841-2807
