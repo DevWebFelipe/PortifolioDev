@@ -1,0 +1,91 @@
+.btn {
+  --btn-bg-color: var(--gray-200);
+  --btn-color: var(--bg-color);
+  border: 0;
+  background-color: transparent;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+
+  border-radius: 0.5rem; /* 8px */
+
+  font: var(--title-sm);
+
+  cursor: pointer;
+
+  background: var(--btn-bg-color);
+  color: var(--btn-color);
+}
+
+.btn:hover {
+  --btn-bg-color: var(--brand-gradient);
+  --btn-color: var(--surface-color);
+
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  color: var(--btn-color);
+}
+
+.btn-sm {
+  padding: 0.5rem 1rem; /* 8px 16px */
+  font-size: var(--fs-sm);
+}
+
+.btn-md {
+  padding: 0.75rem 1.5rem; /* 12px 24px */
+  font-size: var(--fs-base);
+}
+
+.btn-lg {
+  padding: 1rem 2rem; /* 16px 32px */
+  font-size: 1.125rem;
+}
+
+.btn[aria-label] {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+    inset: 1px;
+    background-color: var(--background-color);
+  }
+
+  /* Isso aqui vai pegar o conteúdo do aria label e jogar visualmente na tela */
+  &::after {
+    content: attr(aria-label);
+    background: var(--btn-bg-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.btn-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: transparent;
+  border: 1px solid #555;
+  border-radius: 8px;
+  height: 3rem;
+  width: 100%;
+  text-align: center;
+  color: #ccc;
+}
+
+@media (width >= 80em) {
+  .btn-sm {
+    padding: 0.75rem 1.5rem; /* 12px 24px */
+    font-size: var(--fs-base);
+  }
+
+  .btn-md {
+    padding: 1rem 2rem; /* 16px 32px */
+    font-size: 1.125rem;
+  }
+}

@@ -1,4 +1,4 @@
-.section-hero {
+.hero-section {
   height: 750px;
   display: flex;
   flex-direction: column;
@@ -16,6 +16,11 @@
   .hero-profile {
     max-width: 680px;
     margin: 0 auto 80px auto;
+
+    span {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
 
     h2 {
       margin-bottom: 8px;
@@ -90,10 +95,14 @@
   }
 }
 
-.section-work {
+.work-section {
   padding: 0 120px;
   background-color: var(--gray-500);
   margin-bottom: 144px;
+
+  .project-links {
+    margin-top: 0.8rem;
+  }
 
   header {
     p {
@@ -125,7 +134,7 @@
   }
 }
 
-.section-services {
+.services-section {
   padding: 88px 120px 120px 120px;
 
   background-color: var(--gray-600);
@@ -173,6 +182,7 @@
 
     h2 {
       margin-bottom: 8px;
+      font: var(--title-md);
     }
 
     p {
@@ -263,6 +273,7 @@
       }
     }
   }
+
   a {
     font: var(--text-md);
     color: var(--gray-200);

@@ -22,6 +22,15 @@
   --color-primary: #4f46e5;
   --color-secondary: #9333ea;
   --color-background: #ffffff;
+  --surface-color: #18181b;
+  --background-color: #212124;
+  --brand-color-primary: #f7d826;
+  --brand-color-secondary: #f04805;
+  --brand-gradient: linear-gradient(
+    90deg,
+    var(--brand-color-secondary) 0%,
+    var(--brand-color-primary) 100%
+  );
 
   /* fontes */
   --font-family-title: "Asap", sans-serif;
@@ -36,4 +45,14 @@
 
   --text-md: 400 16px/140% var(--font-family-text);
   --text-sm: 400 14px/140% var(--font-family-text);
+
+  --fw-base: 400;
+  --fw-md: 500;
+  --fw-bold: 800;
+
+  --fs-sm: 0.875rem; /* 14px */
+  --fs-base: 1rem; /* 16px */
+  --fs-lg: 1.25rem; /* 20px */
+  --fs-xl: 1.5rem; /* 24px */
+  --fs-2xl: 2.5rem; /* 40px */
 }

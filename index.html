@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
   <body>
-    <header class="section-hero container">
+    <header class="hero-section container">
       <div class="hero-profile">
         <div class="hero-photo-wrapper">
           <img
@@ -30,10 +30,10 @@
           />
         </div>
 
-        <h2 class="subtitle">
+        <span class="subtitle">
           Hello World! Meu nome é
-          <span class="highlight">Felipe Texeira</span> e sou
-        </h2>
+          <strong class="text-highlight">Felipe Texeira</strong> e sou
+        </span>
 
         <h1 class="title-lg">Desenvolvedor Fullstack</h1>
 
@@ -74,70 +74,112 @@
     </header>
 
     <main>
-      <section class="section-work container">
+      <section class="work-section container">
         <header>
-          <p class="highlight subtitle">Meu trabalho</p>
+          <p class="text-highlight subtitle">Meu trabalho</p>
           <h2 class="title-md">Veja os projetos em destaque</h2>
         </header>
 
         <div class="grid">
-          <article class="card">
-            <a
-              href="https://devwebfelipe.github.io/PerfilDeViagens/"
-              target="_blank"
-            >
-              <img
-                src="assets/img/Thumbnail_Project-01.png"
-                alt="Projeto Travelgram"
-              />
-            </a>
+          <article class="card travelgram">
+            <img
+              src="assets/img/Thumbnail_Project-01.png"
+              alt="Projeto Travelgram"
+            />
             <h3 class="title-sm">Travelgram</h3>
             <p class="text-sm">
               Rede social onde as pessoas mostram os registros de suas viagens
               pelo mundo
             </p>
+            <div class="project-links flex justify-center gap-1">
+              <a
+                href="https://devwebfelipe.github.io/PerfilDeViagens/"
+                class="btn btn-sm"
+                target="_blank"
+                aria-label="Ver projeto"
+              ></a>
+              <a
+                href="https://github.com/DevWebFelipe/PerfilDeViagens"
+                class="btn btn-sm"
+                target="_blank"
+                aria-label="Repositório"
+              ></a>
+            </div>
           </article>
 
           <article class="card">
-            <a href="https://devwebfelipe.github.io/TechNews/" target="_blank">
-              <img
-                src="assets/img/Thumbnail_Project-02.png"
-                alt="Projeto Tech News"
-              />
-            </a>
+            <img
+              src="assets/img/Thumbnail_Project-02.png"
+              alt="Projeto Tech News"
+            />
             <h3 class="title-sm">Tech News</h3>
             <p class="text-sm">
               Homepage de um portal de notícias sobre a área de tecnologia
             </p>
+            <div class="project-links flex justify-center gap-1">
+              <a
+                href="https://devwebfelipe.github.io/TechNews/"
+                class="btn btn-sm"
+                target="_blank"
+                aria-label="Ver projeto"
+              ></a>
+              <a
+                href="https://github.com/DevWebFelipe/TechNews"
+                class="btn btn-sm"
+                target="_blank"
+                aria-label="Repositório"
+              ></a>
+            </div>
           </article>
 
           <article class="card">
-            <a href="https://devwebfelipe.github.io/Receita/" target="_blank">
-              <img
-                src="assets/img/Thumbnail_Project-03.png"
-                alt="Projeto Página de receita"
-              />
-            </a>
+            <img
+              src="assets/img/Thumbnail_Project-03.png"
+              alt="Projeto Página de receita"
+            />
             <h3 class="title-sm">Página de receita</h3>
             <p class="text-sm">
               Página com o passo a passo de uma receita para cupcakes
             </p>
+            <div class="project-links flex justify-center gap-1">
+              <a
+                href="https://devwebfelipe.github.io/Receita/"
+                class="btn btn-sm"
+                target="_blank"
+                aria-label="Ver projeto"
+              ></a>
+              <a
+                href="https://github.com/DevWebFelipe/Receita"
+                class="btn btn-sm"
+                target="_blank"
+                aria-label="Repositório"
+              ></a>
+            </div>
           </article>
 
           <article class="card">
-            <a
-              href="https://devwebfelipe.github.io/LPdeProduto/"
-              target="_blank"
-            >
-              <img
-                src="assets/img/Thumbnail_Project-04.png"
-                alt="Projeto Zingen"
-              />
-            </a>
+            <img
+              src="assets/img/Thumbnail_Project-04.png"
+              alt="Projeto Zingen"
+            />
             <h3 class="title-sm">Zingen</h3>
             <p class="text-sm">
               Landing Page completa e responsiva de um aplicativo de Karaokê
             </p>
+            <div class="project-links flex justify-center gap-1">
+              <a
+                href="https://devwebfelipe.github.io/LPdeProduto/"
+                class="btn btn-sm"
+                target="_blank"
+                aria-label="Ver projeto"
+              ></a>
+              <a
+                href="https://github.com/DevWebFelipe/LPdeProduto"
+                class="btn btn-sm"
+                target="_blank"
+                aria-label="Repositório"
+              ></a>
+            </div>
           </article>
 
           <article class="card">
@@ -150,30 +192,44 @@
             <p class="text-sm">
               Um sistema para pedido e acompanhamento de reembolso
             </p>
+            <div class="project-links flex justify-center gap-1">
+              <span class="btn-sm btn-disabled" aria-label=""
+                >Projeto ainda não publicado</span
+              >
+            </div>
           </article>
 
           <article class="card">
-            <a
-              href="https://devwebfelipe.github.io/PontosTuristicos/"
-              target="_blank"
-            >
-              <img
-                src="assets/img/Thumbnail_Project-06.png"
-                alt="Projeto Página de turismo"
-              />
-            </a>
+            <img
+              src="assets/img/Thumbnail_Project-06.png"
+              alt="Projeto Página de turismo"
+            />
             <h3 class="title-sm">Página de turismo</h3>
             <p class="text-sm">
               Página com as principais informações para quem quer viajar para
               Busan
             </p>
+            <div class="project-links flex justify-center gap-1">
+              <a
+                href="https://devwebfelipe.github.io/PontosTuristicos/"
+                class="btn btn-sm"
+                target="_blank"
+                aria-label="Ver projeto"
+              ></a>
+              <a
+                href="https://github.com/DevWebFelipe/PontosTuristicos"
+                class="btn btn-sm"
+                target="_blank"
+                aria-label="Repositório"
+              ></a>
+            </div>
           </article>
         </div>
       </section>
 
-      <section class="section-services container">
+      <section class="services-section container">
         <header>
-          <p class="highlight subtitle">Meus serviços</p>
+          <p class="text-highlight subtitle">Meus serviços</p>
           <h2 class="title-md">Como posso ajudar o seu negócio</h2>
         </header>
 
@@ -203,55 +259,57 @@
     </main>
 
     <footer class="section-footer fullscreen container">
-      <div class="footer-content">
-        <p class="highlight subtitle">Contato</p>
-        <h2 id="title-md">Gostou do meu trabalho?</h2>
-        <p class="text-md">
-          Entre em contato ou acompanhe as minhas redes sociais!
-        </p>
+      <section aria-label="Contato">
+        <div class="footer-content">
+          <p class="text-highlight subtitle">Contato</p>
+          <h2>Gostou do meu trabalho?</h2>
+          <p class="text-md">
+            Entre em contato ou acompanhe as minhas redes sociais!
+          </p>
 
-        <ul class="social-links">
-          <li>
-            <a
-              href="https://www.linkedin.com/in/felipe-teixeira-460464110/"
-              target="_blank"
-            >
-              <span class="icon-linkedeen"></span>
-              <span>Linkedin</span>
-              <span class="external-icon"></span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/felipe.flptxr/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span class="icon-instagram"></span>
-              <span>Instagram</span>
-              <span class="external-icon"></span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/DevWebFelipe"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span class="icon-github"></span>
-              <span>GitHub</span>
-              <span class="external-icon"></span>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:felipe.flptxr@gmail.com">
-              <span class="icon-mail"></span>
-              <span>E-mail</span>
-              <span class="external-icon"></span>
-            </a>
-          </li>
-        </ul>
-      </div>
+          <ul class="social-links">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/felipe-teixeira-460464110/"
+                target="_blank"
+              >
+                <span class="icon-linkedeen"></span>
+                <span>Linkedin</span>
+                <span class="external-icon"></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/felipe.flptxr/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="icon-instagram"></span>
+                <span>Instagram</span>
+                <span class="external-icon"></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/DevWebFelipe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="icon-github"></span>
+                <span>GitHub</span>
+                <span class="external-icon"></span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:felipe.flptxr@gmail.com">
+                <span class="icon-mail"></span>
+                <span>E-mail</span>
+                <span class="external-icon"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </footer>
   </body>
 </html>

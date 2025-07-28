@@ -53,6 +53,6 @@ p {
   font: var(--text-md);
 }
 
-.highlight {
+.text-highlight {
   color: var(--red);
 }
