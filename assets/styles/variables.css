@@ -4,6 +4,7 @@
   --purple: #bb72e9;
   --blue: #3996db;
   --green: #82bc4f;
+  --lime: #00ff00;
   --yellow: #eabd5f;
 
   /* Cores base */
@@ -21,6 +22,8 @@
   --surface-color: #18181b;
   --background-color: #212124;
 
+  --brand-color-primary: var(--color-primary);
+  --brand-color-secondary: var();
   --brand-gradient: linear-gradient(
     90deg,
     var(--color-secondary) 0%,

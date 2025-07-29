@@ -1,0 +1,16 @@
+#main {
+  min-height: 100vh;
+  height: 100vh;
+
+  & #projects {
+    padding-top: 4.5rem;
+
+    & span {
+      margin-bottom: 0.5rem;
+    }
+
+    & h2 {
+      margin-bottom: 3.5rem;
+    }
+  }
+}

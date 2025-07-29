@@ -1,5 +1,6 @@
 .content-container {
-  width: 80%;
+  max-width: 1040px;
   margin: 0 auto;
+  padding-inline: 2rem;
   opacity: 1;
 }

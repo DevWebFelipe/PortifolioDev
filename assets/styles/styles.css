@@ -1,7 +1,76 @@
 .global-container {
   height: 100vh;
-  background-image: url(../gifs/bg-gif.gif);
-  background-size: cover;
   width: 100%;
   margin: 0;
+}
+
+#backgroundFallback {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/Background_Intro.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -2; /* abaixo do canvas */
+}
+
+#matrixCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-color: var(--gray-600);
+  transition: opacity 0.8s ease;
+  opacity: 1;
+}
+
+#matrixCanvas.paused {
+  opacity: 0.4; /* valor que você achar elegante */
+}
+
+.btn-toggle-matrix {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 0.5rem 1rem;
+  font-family: monospace;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* invisível até hover no canto */
+}
+
+/* Área de ativação do botão */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 99;
+}
+
+/* Mostrar botão ao passar o mouse no canto superior direito */
+body:hover .btn-toggle-matrix {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Mobile: esconder o botão */
+@media (max-width: 640px) {
+  .btn-toggle-matrix {
+    display: none;
+  }
 }

@@ -2,12 +2,20 @@
   display: flex;
 }
 
+.flex-justfy-center {
+  justify-content: center;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
 
 .gap-1 {
   gap: 1rem;
+}
+
+.gap-0\.5 {
+  gap: 0.5rem;
 }
 
 .div-container {
@@ -26,4 +34,8 @@
 
 .margin-inline-auto {
   margin-inline: auto;
+}
+
+.display-block {
+  display: block;
 }

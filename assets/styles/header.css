@@ -1,20 +1,135 @@
 #header {
+  min-height: 100vh;
+  position: relative;
+
   & #intro {
     padding-top: 7.5rem;
-    max-width: 680px;
+    max-width: 1040px;
+    margin: 0 auto;
 
     & .title {
+      max-width: 680px;
+
+      & span .strong {
+        color: var(--lime);
+      }
+
+      & span {
+        margin-bottom: 0.5rem;
+      }
+
+      & h1 {
+        margin-bottom: 1.25rem;
+      }
     }
 
     & .title .profile-pic {
-      width: 7.5rem;
-      height: 7.5rem;
+      width: 8rem;
+      height: 8rem;
+      position: relative;
+      margin-bottom: 3.5rem;
+
+      & img:nth-child(1) {
+        border-radius: 50%;
+        width: 7rem;
+        border: 2px solid var(--lime);
+        padding: 3px;
+      }
+
+      & img:nth-child(2) {
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        bottom: 1.25rem;
+        right: 0.07rem;
+      }
+    }
+
+    & .tecnologies {
+      margin-top: 5rem;
+      justify-content: center;
+
+      & .div-container {
+        background-color: var(--gray-400);
+        border-radius: 3rem;
+        box-shadow: 0 5px 8px rgba(30, 255, 0, 0.432);
+        display: flex;
+        align-items: center;
+
+        padding: 0.5rem 1rem;
+
+        transition: scale 350ms;
+
+        &:hover {
+          scale: 1.1;
+        }
+      }
 
       & img {
-        border-radius: 50%;
-        width: 6rem;
-        border: 3px solid var(--red);
+        width: 1.5rem;
+        height: 1.5rem;
       }
+    }
+  }
+
+  & .scroll-down-icon {
+    position: absolute;
+    bottom: 10rem;
+    left: 50%;
+
+    & img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
+
+.bounce-animation {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(2rem);
+  }
+}
+
+@media (width <= 680px) {
+  #header {
+    & .scroll-down-icon {
+      bottom: 6rem;
+    }
+  }
+}
+
+@media (width <= 480px) {
+  #header {
+    & h1 {
+      font-size: 2.5rem;
+    }
+
+    & .tecnologies {
+      padding-bottom: 10rem;
+    }
+
+    & .scroll-down-icon {
+      bottom: 2rem;
+    }
+  }
+}
+
+@media (width <= 360px) {
+  #header {
+    & h1 {
+      font-size: 2rem;
+    }
+
+    & .tecnologies {
+      padding-bottom: 10rem;
     }
   }
 }
