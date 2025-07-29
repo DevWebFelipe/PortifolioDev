@@ -1,0 +1,20 @@
+#header {
+  & #intro {
+    padding-top: 7.5rem;
+    max-width: 680px;
+
+    & .title {
+    }
+
+    & .title .profile-pic {
+      width: 7.5rem;
+      height: 7.5rem;
+
+      & img {
+        border-radius: 50%;
+        width: 6rem;
+        border: 3px solid var(--red);
+      }
+    }
+  }
+}

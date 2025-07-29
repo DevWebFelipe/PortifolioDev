@@ -1,35 +1,30 @@
 :root {
-  /* espaçamentos */
-  --spacing-sm: 8px;
-  --spacing-md: 16px;
-  --spacing-lg: 32px;
-
-  /* cores principais */
+  /* Cores principais */
   --red: #e3646e;
   --purple: #bb72e9;
   --blue: #3996db;
   --green: #82bc4f;
   --yellow: #eabd5f;
 
-  /* cores base */
+  /* Cores base */
   --gray-100: #e2e4e9;
   --gray-200: #c0c4ce;
   --gray-300: #878ea1;
   --gray-400: #292c34;
   --gray-500: #16181d;
   --gray-600: #0d0e11;
-  --bg-color: #16181d;
+
   --color-primary: #4f46e5;
   --color-secondary: #9333ea;
   --color-background: #ffffff;
+
   --surface-color: #18181b;
   --background-color: #212124;
-  --brand-color-primary: #f7d826;
-  --brand-color-secondary: #f04805;
+
   --brand-gradient: linear-gradient(
     90deg,
-    var(--brand-color-secondary) 0%,
-    var(--brand-color-primary) 100%
+    var(--color-secondary) 0%,
+    var(--color-primary) 100%
   );
 
   /* fontes */

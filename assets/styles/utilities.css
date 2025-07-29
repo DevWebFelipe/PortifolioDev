@@ -1,0 +1,29 @@
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.div-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.strong {
+  color: var(--red);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-inline-auto {
+  margin-inline: auto;
+}

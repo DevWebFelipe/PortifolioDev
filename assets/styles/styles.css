@@ -1,0 +1,7 @@
+.global-container {
+  height: 100vh;
+  background-image: url(../gifs/bg-gif.gif);
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+}

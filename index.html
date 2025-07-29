@@ -1,340 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portifólio</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Felipe Texeira</title>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
   </head>
   <body>
-    <header class="hero-section container">
-      <div class="hero-profile">
-        <div class="hero-photo-wrapper">
-          <img
-            src="assets/img/Foto-de-perfil.jpg"
-            alt="Foto de Felipe Teixeira"
-            class="hero-photo"
-          />
-          <img
-            class="hero-icon"
-            src="assets/icons/Vector.svg"
-            alt="Ícone desenvolvedor"
-          />
-        </div>
-
-        <span class="subtitle">
-          Hello World! Meu nome é
-          <strong class="text-highlight">Felipe Texeira</strong> e sou
-        </span>
-
-        <h1 class="title-lg">Desenvolvedor Fullstack</h1>
-
-        <p class="text-sm">
-          Transformo necessidades em aplicações reais, evolventes e funcionais.
-          Desenvolvo sistemas através da minha paixão pela tecnologia,
-          contribuindo com soluções inovadoras e eficazes para desafios
-          complexos.
-        </p>
-      </div>
-
-      <nav class="technologies-nav">
-        <ul class="tech-list">
-          <li class="tech-item">
-            <img src="assets/icons/GitHub.svg" alt="GitHub" />GitHub
-          </li>
-          <li class="tech-item">
-            <img src="assets/icons/HTML.svg" alt="HTML" />HTML
-          </li>
-          <li class="tech-item">
-            <img src="assets/icons/CSS.svg" alt="CSS" />CSS
-          </li>
-          <li class="tech-item">
-            <img src="assets/icons/JavaScript.svg" alt="JavaScript" />JavaScript
-          </li>
-          <li class="tech-item">
-            <img src="assets/icons/React.svg" alt="React" />React
-          </li>
-          <li class="tech-item">
-            <img src="assets/icons/Node.js.svg" alt="Node.js" />Node.js
-          </li>
-        </ul>
-      </nav>
-
-      <div class="scroll-indicator">
-        <img src="assets/icons/CaretDoubleDown.svg" alt="Role para baixo" />
-      </div>
-    </header>
-
-    <main>
-      <section class="work-section container">
-        <header>
-          <p class="text-highlight subtitle">Meu trabalho</p>
-          <h2 class="title-md">Veja os projetos em destaque</h2>
-        </header>
-
-        <div class="grid">
-          <article class="card travelgram">
-            <img
-              src="assets/img/Thumbnail_Project-01.png"
-              alt="Projeto Travelgram"
-            />
-            <h3 class="title-sm">Travelgram</h3>
-            <p class="text-sm">
-              Rede social onde as pessoas mostram os registros de suas viagens
-              pelo mundo
-            </p>
-            <div class="project-links flex justify-center gap-1">
-              <a
-                href="https://devwebfelipe.github.io/PerfilDeViagens/"
-                class="btn btn-sm"
-                target="_blank"
-                aria-label="Ver projeto"
-              ></a>
-              <a
-                href="https://github.com/DevWebFelipe/PerfilDeViagens"
-                class="btn btn-sm"
-                target="_blank"
-                aria-label="Repositório"
-              ></a>
+    <div id="page" class="global-container">
+      <header id="header" class="content-container">
+        <section id="intro" class="text-center margin-inline-auto">
+          <div class="title">
+            <div class="profile-pic margin-inline-auto">
+              <img
+                src="assets/images/Foto-de-perfil.jpg"
+                alt="Foto de perfil de Felipe Texeira"
+              />
             </div>
-          </article>
 
-          <article class="card">
-            <img
-              src="assets/img/Thumbnail_Project-02.png"
-              alt="Projeto Tech News"
-            />
-            <h3 class="title-sm">Tech News</h3>
-            <p class="text-sm">
-              Homepage de um portal de notícias sobre a área de tecnologia
-            </p>
-            <div class="project-links flex justify-center gap-1">
-              <a
-                href="https://devwebfelipe.github.io/TechNews/"
-                class="btn btn-sm"
-                target="_blank"
-                aria-label="Ver projeto"
-              ></a>
-              <a
-                href="https://github.com/DevWebFelipe/TechNews"
-                class="btn btn-sm"
-                target="_blank"
-                aria-label="Repositório"
-              ></a>
-            </div>
-          </article>
-
-          <article class="card">
-            <img
-              src="assets/img/Thumbnail_Project-03.png"
-              alt="Projeto Página de receita"
-            />
-            <h3 class="title-sm">Página de receita</h3>
-            <p class="text-sm">
-              Página com o passo a passo de uma receita para cupcakes
-            </p>
-            <div class="project-links flex justify-center gap-1">
-              <a
-                href="https://devwebfelipe.github.io/Receita/"
-                class="btn btn-sm"
-                target="_blank"
-                aria-label="Ver projeto"
-              ></a>
-              <a
-                href="https://github.com/DevWebFelipe/Receita"
-                class="btn btn-sm"
-                target="_blank"
-                aria-label="Repositório"
-              ></a>
-            </div>
-          </article>
-
-          <article class="card">
-            <img
-              src="assets/img/Thumbnail_Project-04.png"
-              alt="Projeto Zingen"
-            />
-            <h3 class="title-sm">Zingen</h3>
-            <p class="text-sm">
-              Landing Page completa e responsiva de um aplicativo de Karaokê
-            </p>
-            <div class="project-links flex justify-center gap-1">
-              <a
-                href="https://devwebfelipe.github.io/LPdeProduto/"
-                class="btn btn-sm"
-                target="_blank"
-                aria-label="Ver projeto"
-              ></a>
-              <a
-                href="https://github.com/DevWebFelipe/LPdeProduto"
-                class="btn btn-sm"
-                target="_blank"
-                aria-label="Repositório"
-              ></a>
-            </div>
-          </article>
-
-          <article class="card">
-            <img
-              src="assets/img/Thumbnail_Project-05.png"
-              alt="Projeto Refund"
-            />
-
-            <h3 class="title-sm">Refund</h3>
-            <p class="text-sm">
-              Um sistema para pedido e acompanhamento de reembolso
-            </p>
-            <div class="project-links flex justify-center gap-1">
-              <span class="btn-sm btn-disabled" aria-label=""
-                >Projeto ainda não publicado</span
+            <div>
+              <span class="subtitle">
+                Hello World! Meu nome é
+                <strong class="strong">Felipe Texeira</strong> e sou</span
               >
+              <h1 class="title-lg">Desenvolvedor Fullstack</h1>
+              <p class="text-sm">
+                Transformo necessidades em aplicações reais, evolventes e
+                funcionais. Desenvolvo sistemas através da minha paixão pela
+                tecnologia, contribuindo com soluções inovadoras e eficazes para
+                desafios complexos.
+              </p>
             </div>
-          </article>
+          </div>
 
-          <article class="card">
-            <img
-              src="assets/img/Thumbnail_Project-06.png"
-              alt="Projeto Página de turismo"
-            />
-            <h3 class="title-sm">Página de turismo</h3>
-            <p class="text-sm">
-              Página com as principais informações para quem quer viajar para
-              Busan
-            </p>
-            <div class="project-links flex justify-center gap-1">
-              <a
-                href="https://devwebfelipe.github.io/PontosTuristicos/"
-                class="btn btn-sm"
-                target="_blank"
-                aria-label="Ver projeto"
-              ></a>
-              <a
-                href="https://github.com/DevWebFelipe/PontosTuristicos"
-                class="btn btn-sm"
-                target="_blank"
-                aria-label="Repositório"
-              ></a>
-            </div>
-          </article>
+          <div class="tecnologies"></div>
+        </section>
+      </header>
 
-          <article class="card">
-            <img
-              src="assets/img/lp_de_patins_animada.png"
-              alt="LP de patins animada"
-            />
-            <h3 class="title-sm">Lp de patins</h3>
-            <p class="text-sm">
-              Página sobre patins, criada com foco em aniações e transições
-            </p>
-            <div class="project-links flex justify-center gap-1">
-              <a
-                href="https://devwebfelipe.github.io/LPdePatinsAnimada/"
-                class="btn btn-sm"
-                target="_blank"
-                aria-label="Ver projeto"
-              ></a>
-              <a
-                href="https://github.com/DevWebFelipe/LPdePatinsAnimada"
-                class="btn btn-sm"
-                target="_blank"
-                aria-label="Repositório"
-              ></a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="services-section container">
-        <header>
-          <p class="text-highlight subtitle">Meus serviços</p>
-          <h2 class="title-md">Como posso ajudar o seu negócio</h2>
-        </header>
-
-        <div class="grid">
-          <article class="card">
-            <img src="assets/icons/Devices.svg" alt="Projeto Travelgram" />
-            <h3 class="title-sm">Websites e Aplicativos</h3>
-            <p class="text-sm">Desenvolvimento de interfaces</p>
-          </article>
-
-          <article class="card">
-            <img src="assets/icons/HardDrives.svg" alt="Projeto Tech News" />
-            <h3 class="title-sm">API e banco de dados</h3>
-            <p class="text-sm">Criação de serviços do sistema</p>
-          </article>
-
-          <article class="card">
-            <img
-              src="assets/icons/Infinity.svg"
-              alt="Projeto Página de receita"
-            />
-            <h3 class="title-sm">DevOps</h3>
-            <p class="text-sm">Gestão e infraestrutura da aplicação</p>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <footer class="section-footer fullscreen container">
-      <section aria-label="Contato">
-        <div class="footer-content">
-          <p class="text-highlight subtitle">Contato</p>
-          <h2>Gostou do meu trabalho?</h2>
-          <p class="text-md">
-            Entre em contato ou acompanhe as minhas redes sociais!
-          </p>
-
-          <ul class="social-links">
-            <li>
-              <a
-                href="https://www.linkedin.com/in/felipe-teixeira-460464110/"
-                target="_blank"
-              >
-                <span class="icon-linkedeen"></span>
-                <span>Linkedin</span>
-                <span class="external-icon"></span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/felipe.flptxr/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span class="icon-instagram"></span>
-                <span>Instagram</span>
-                <span class="external-icon"></span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/DevWebFelipe"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span class="icon-github"></span>
-                <span>GitHub</span>
-                <span class="external-icon"></span>
-              </a>
-            </li>
-            <li>
-              <a href="mailto:felipe.flptxr@gmail.com">
-                <span class="icon-mail"></span>
-                <span>E-mail</span>
-                <span class="external-icon"></span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </footer>
+      <main id="main"></main>
+      <footer id="footer"></footer>
+    </div>
   </body>
 </html>
