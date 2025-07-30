@@ -68,10 +68,19 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function handleResize() {
+    const oldColumns = columns
     canvas.width = window.innerWidth
     canvas.height = window.innerHeight
     columns = canvas.width / fontSize
-    drops = Array.from({ length: columns }).fill(1)
+
+    if (columns > oldColumns) {
+      // Adiciona mais colunas ao array sem resetar o resto
+      const extra = Array.from({ length: columns - oldColumns }).fill(1)
+      drops.push(...extra)
+    } else if (columns < oldColumns) {
+      // Remove colunas extras
+      drops.length = columns
+    }
   }
 
   toggleButton.addEventListener("click", toggleMatrix)
