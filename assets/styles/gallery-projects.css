@@ -1,25 +1,74 @@
 #gallery-projects {
   & .card {
     max-width: 400px;
-    background-color: var(--gray-500);
+    background-color: rgba(5, 71, 5, 0.747);
     padding-inline: 0.75rem;
     padding-block: 0.75rem;
     border-radius: 8px;
     transition: scale 350ms;
 
-    &:hover {
-      scale: 1.1;
-      border: 1px solid var(--lime);
+    animation: image-appear linear backwards;
+    animation-timeline: view();
+    animation-range: 100px 300px;
+
+    & figure {
+      position: relative;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      line-height: 0;
+      margin-bottom: 0.5rem;
+
+      & > img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+      }
+
+      & figcaption {
+        position: absolute;
+        width: 100%;
+        bottom: 0rem;
+
+        bottom: 0;
+        padding: 0;
+
+        transform: translateY(100%);
+        transition: transform 500ms;
+
+        background: linear-gradient(to top, rgb(0 0 0 / 0.8), rgb(0 0 0 / 0));
+
+        & .project-links {
+          padding: 0.5rem 0.5rem;
+          justify-items: flex-end;
+        }
+      }
+
+      &:hover {
+        & figcaption {
+          transform: translateY(0);
+        }
+      }
     }
 
-    & img {
-      width: 100%;
-      margin-bottom: 1.25rem;
-      border-radius: 8px;
+    &:hover {
+      scale: 1.1;
     }
 
     & h3 {
       padding-block: 0.25rem 0.5rem;
+      color: var(--gray-100);
     }
+
+    & span {
+      color: var(--gray-100);
+    }
+  }
+}
+
+@keyframes image-appear {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
   }
 }

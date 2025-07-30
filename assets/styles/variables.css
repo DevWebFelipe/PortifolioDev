@@ -24,11 +24,7 @@
 
   --brand-color-primary: var(--color-primary);
   --brand-color-secondary: var();
-  --brand-gradient: linear-gradient(
-    90deg,
-    var(--color-secondary) 0%,
-    var(--color-primary) 100%
-  );
+  --brand-gradient: linear-gradient(90deg, var(--green) 0%, var(--lime) 100%);
 
   /* fontes */
   --font-family-title: "Asap", sans-serif;
