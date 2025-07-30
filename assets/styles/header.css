@@ -33,6 +33,12 @@
         border-radius: 50%;
         width: 7rem;
         border: 2px solid var(--lime);
+
+        box-shadow: rgba(0, 255, 0, 0.25) 10px 10px 25px,
+          rgba(0, 255, 0, 0.25) -10px -10px 25px,
+          rgba(0, 255, 0, 0.25) -10px 10px 25px,
+          rgba(0, 255, 0, 0.25) 10px -10px 25px;
+
         padding: 3px;
       }
 
@@ -52,7 +58,8 @@
       & .div-container {
         background-color: var(--gray-400);
         border-radius: 3rem;
-        box-shadow: 0 5px 8px rgba(30, 255, 0, 0.432);
+        box-shadow: rgba(43, 255, 0, 0.5) 0px 5px 15px;
+        border: 1px solid var(--gray-200);
         display: flex;
         align-items: center;
 
@@ -61,6 +68,7 @@
         transition: scale 350ms;
 
         &:hover {
+          border: 1px solid var(--lime);
           scale: 1.1;
         }
       }
@@ -73,7 +81,7 @@
   }
 
   & .scroll-down-icon {
-    position: absolute;
+    margin-top: 5rem;
     bottom: 10rem;
     left: 50%;
 
@@ -98,26 +106,10 @@
   }
 }
 
-@media (width <= 680px) {
-  #header {
-    & .scroll-down-icon {
-      bottom: 6rem;
-    }
-  }
-}
-
 @media (width <= 480px) {
   #header {
     & h1 {
       font-size: 2.5rem;
-    }
-
-    & .tecnologies {
-      padding-bottom: 10rem;
-    }
-
-    & .scroll-down-icon {
-      bottom: 2rem;
     }
   }
 }
@@ -126,10 +118,6 @@
   #header {
     & h1 {
       font-size: 2rem;
-    }
-
-    & .tecnologies {
-      padding-bottom: 10rem;
     }
   }
 }

@@ -2,6 +2,7 @@
   & .card {
     max-width: 400px;
     background-color: rgba(5, 71, 5, 0.747);
+    border: 1px solid var(--gray-200);
     padding-inline: 0.75rem;
     padding-block: 0.75rem;
     border-radius: 8px;
@@ -54,6 +55,10 @@
     &:hover {
       scale: 1.1;
       border: 1px solid var(--lime);
+
+      box-shadow: rgba(0, 255, 0, 0.25) 3px 3px 15px,
+        rgba(0, 255, 0, 0.25) -3px -3px 15px,
+        rgba(0, 255, 0, 0.25) -3px 3px 15px, rgba(0, 255, 0, 0.25) 3px -3px 15px;
     }
 
     & h3 {
