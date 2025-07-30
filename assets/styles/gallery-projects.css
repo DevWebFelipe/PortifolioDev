@@ -53,6 +53,7 @@
 
     &:hover {
       scale: 1.1;
+      border: 1px solid var(--lime);
     }
 
     & h3 {
