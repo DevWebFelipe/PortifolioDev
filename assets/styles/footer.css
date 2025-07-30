@@ -6,6 +6,7 @@
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 10rem;
+  padding-inline: 2rem;
 
   & .footer-content {
     & p:nth-child(1) {
@@ -119,5 +120,13 @@
   & a {
     font: var(--text-md);
     color: var(--gray-200);
+  }
+}
+
+@media (width <= 480px) {
+  #footer {
+    & ul {
+      max-width: 350px;
+    }
   }
 }

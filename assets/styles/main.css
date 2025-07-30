@@ -4,6 +4,7 @@
 
   & #projects {
     padding-top: 4.5rem;
+    padding-inline: 0.5rem;
 
     & span {
       margin-bottom: 0.5rem;
