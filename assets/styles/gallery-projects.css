@@ -9,10 +9,7 @@
 
     &:hover {
       scale: 1.1;
-
-      & img {
-        scale: 1.05;
-      }
+      border: 1px solid var(--lime);
     }
 
     & img {
