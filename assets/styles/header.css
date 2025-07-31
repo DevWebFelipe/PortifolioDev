@@ -69,7 +69,7 @@
         transition: transform 550ms;
 
         &:hover {
-          border: 1px solid var(--lime);
+          border-color: var(--lime);
           transform: scale(1.1);
         }
       }

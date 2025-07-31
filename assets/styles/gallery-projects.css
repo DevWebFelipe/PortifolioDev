@@ -6,7 +6,7 @@
     padding-inline: 0.75rem;
     padding-block: 0.75rem;
     border-radius: 8px;
-    transition: scale 350ms;
+    transition: transform 850ms;
 
     animation: image-appear linear backwards;
     animation-timeline: view();
