@@ -52,6 +52,12 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi com 
 - VS Code
 - Figma
 
+## 💡 Funcionalidades
+
+- Efeito Matrix interativo com botão de pausa
+- Layout responsivo e adaptado para mobile
+- Separação modular de estilos por seção
+
 ---
 
 ## 👨‍💻 Sobre Mim
