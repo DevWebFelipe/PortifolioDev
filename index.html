@@ -30,18 +30,22 @@
         <section id="intro" class="text-center">
           <div class="title margin-inline-auto">
             <div class="profile-pic margin-inline-auto">
-              <img
-                src="assets/images/Foto-de-perfil.jpg"
-                alt="Foto de perfil de Felipe Texeira"
-              />
+              <figure>
+                <img
+                  src="assets/images/Foto-de-perfil.jpg"
+                  alt="Foto de perfil de Felipe Texeira"
+                />
+              </figure>
+
               <img
                 class="hero-icon"
                 src="assets/icons/Vector.svg"
-                alt="Ícone desenvolvedor"
+                alt=""
+                aria-hidden="true"
               />
             </div>
 
-            <div>
+            <section>
               <span class="subtitle">
                 Hello World! Meu nome é
                 <strong class="strong">Felipe Texeira</strong> e sou</span
@@ -53,44 +57,38 @@
                 tecnologia, contribuindo com soluções inovadoras e eficazes para
                 desafios complexos.
               </p>
-            </div>
+            </section>
           </div>
 
-          <div class="tecnologies flex gap-1 flex-wrap">
-            <div class="div-container gap-0.5">
-              <img src="assets/icons/GitHub.svg" alt="ícone do GitHub" /><span
-                >GitHub</span
-              >
-            </div>
-            <div class="div-container gap-0.5">
-              <img src="assets/icons/HTML.svg" alt="ícone do HTML" /><span
-                >HTML</span
-              >
-            </div>
-            <div class="div-container gap-0.5">
-              <img src="assets/icons/CSS.svg" alt="ícone do CSS" /><span
-                >CSS</span
-              >
-            </div>
-            <div class="div-container gap-0.5">
-              <img src="assets/icons/JavaScript.svg" alt="ícone de" /><span
-                >JavaScript</span
-              >
-            </div>
-            <div class="div-container gap-0.5">
-              <img src="assets/icons/React.svg" alt="ícone de" /><span
-                >React</span
-              >
-            </div>
-            <div class="div-container gap-0.5">
-              <img src="assets/icons/Node.js.svg" alt="ícone de Node.js" /><span
-                >Node.js</span
-              >
-            </div>
-          </div>
+          <ul class="tecnologies flex gap-1 flex-wrap">
+            <li class="tech-item gap-0.5">
+              <img src="assets/icons/GitHub.svg" alt="ícone do GitHub" />
+              <span> GitHub </span>
+            </li>
+            <li class="tech-item gap-0.5">
+              <img src="assets/icons/HTML.svg" alt="ícone do HTML" />
+              <span> HTML </span>
+            </li>
+            <li class="tech-item gap-0.5">
+              <img src="assets/icons/CSS.svg" alt="ícone do CSS" />
+              <span> CSS </span>
+            </li>
+            <li class="tech-item gap-0.5">
+              <img src="assets/icons/JavaScript.svg" alt="ícone de" />
+              <span> JavaScript </span>
+            </li>
+            <li class="tech-item gap-0.5">
+              <img src="assets/icons/React.svg" alt="ícone de" />
+              <span> React </span>
+            </li>
+            <li class="tech-item gap-0.5">
+              <img src="assets/icons/Node.js.svg" alt="ícone de Node.js" />
+              <span> Node.js </span>
+            </li>
+          </ul>
         </section>
 
-        <div class="scroll-down-icon flex flex-justfy-center">
+        <nav class="scroll-down-icon flex flex-justify-center">
           <a href="#main">
             <img
               src="assets/icons/CaretDoubleDown.svg"
@@ -98,21 +96,21 @@
               class="bounce-animation"
             />
           </a>
-        </div>
+        </nav>
       </header>
 
       <main id="main" class="content-container">
         <section id="projects">
-          <span class="subtitle display-block text-center text-highlight"
-            >Meu trabalho
+          <span class="subtitle display-block text-center text-highlight">
+            Meu trabalho
           </span>
           <h2 class="title-md text-center">Veja os projetos em destaque</h2>
 
           <div
             id="gallery-projects"
-            class="flex gap-1.5 flex-wrap flex-justfy-center"
+            class="flex gap-1.5 flex-wrap flex-justify-center"
           >
-            <div class="card">
+            <article class="card">
               <figure>
                 <img
                   src="assets/images/lp_de_patins_animada.png"
@@ -140,9 +138,9 @@
               <span class="text-sm">
                 Página sobre patins, criada com foco em aniações e transições
               </span>
-            </div>
+            </article>
 
-            <div class="card">
+            <article class="card">
               <figure>
                 <img
                   src="assets/images/Thumbnail_Project-04.png"
@@ -169,9 +167,9 @@
               <span class="text-sm"
                 >Landing Page completa e responsiva de um aplicativo de Karaokê
               </span>
-            </div>
+            </article>
 
-            <div class="card">
+            <article class="card">
               <figure>
                 <img
                   src="assets/images/Thumbnail_Project-01.png"
@@ -199,9 +197,9 @@
                 Rede social onde as pessoas mostram os registros de suas viagens
                 pelo mundo
               </span>
-            </div>
+            </article>
 
-            <div class="card">
+            <article class="card">
               <figure>
                 <img
                   src="assets/images/Thumbnail_Project-02.png"
@@ -228,9 +226,9 @@
               <span class="text-sm"
                 >Homepage de um portal de notícias sobre a área de tecnologia
               </span>
-            </div>
+            </article>
 
-            <div class="card">
+            <article class="card">
               <figure>
                 <img
                   src="assets/images/Thumbnail_Project-03.png"
@@ -257,9 +255,9 @@
               <span class="text-sm"
                 >Página com o passo a passo de uma receita para cupcakes
               </span>
-            </div>
+            </article>
 
-            <div class="card">
+            <article class="card">
               <figure>
                 <img
                   src="assets/images/Thumbnail_Project-06.png"
@@ -287,9 +285,9 @@
                 >Página com as principais informações para quem quer viajar para
                 Busan
               </span>
-            </div>
+            </article>
 
-            <div class="card">
+            <article class="card">
               <figure>
                 <img
                   src="assets/images/Thumbnail_Project-05.png"
@@ -307,7 +305,7 @@
               <span class="text-sm">
                 Um sistema para pedido e acompanhamento de reembolso
               </span>
-            </div>
+            </article>
           </div>
         </section>
       </main>
