@@ -15,7 +15,7 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi com 
 
 ### 📌 Landing Page JavaScript
 
-![Landing Page](./screenshots/landingpage.png)
+![Landing Page](./assets/screenshots/landingpage.png)
 
 🔗 **Acesse**: [landingpagejavascript.netlify.app](https://landingpagejavascript.netlify.app/)
 
@@ -25,7 +25,7 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi com 
 
 ### 📌 Tributo Game of Thrones
 
-![Tributo GoT](./screenshots/tributogot.png)
+![Tributo GoT](./assets/screenshots/tributogot.png)
 
 🔗 **Acesse**: [tributogot.netlify.app](https://tributogot.netlify.app/)
 
@@ -35,7 +35,7 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi com 
 
 ### 📌 Tributo Game of Thrones
 
-![Sobre mim](./screenshots/sobremim.png)
+![Sobre mim](./assets/screenshots/sobremim.png)
 
 🔗 **Acesse**: [devfelipe.netlify.app](https://devfelipe.netlify.app/)
 
