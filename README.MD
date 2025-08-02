@@ -28,13 +28,28 @@ Este projeto está em constante evolução e é atualizado sempre que aprendo al
 
 ```bash
 📦PortifolioDev
+ ┣ 📂.vscode
  ┣ 📂assets
- ┃ ┣ 📂fonts
  ┃ ┣ 📂icons
- ┃ ┗ 📂images
+ ┃ ┣ 📂images
+ ┃ ┣ 📂screenshots
+ ┃ ┗ 📂scripts
+ ┃ ┃ ┗ 📜matrix.js
+ ┣ 📂styles
+ ┃ ┣ 📜buttons.css
+ ┃ ┣ 📜footer.css
+ ┃ ┣ 📜gallery-projects.css
+ ┃ ┣ 📜global.css
+ ┃ ┣ 📜header.css
+ ┃ ┣ 📜index.css
+ ┃ ┣ 📜main.css
+ ┃ ┣ 📜reset.css
+ ┃ ┣ 📜styles.css
+ ┃ ┣ 📜typography.css
+ ┃ ┣ 📜utilities.css
+ ┃ ┗ 📜variables.css
  ┣ 📜index.html
- ┣ 📜style.css
- ┗ 📜script.js
+ ┗ 📜README.md
 ```
 
 ---
