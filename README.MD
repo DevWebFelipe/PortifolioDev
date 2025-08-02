@@ -1,84 +1,97 @@
-# 💼 Portfólio de Projetos – Felipe Teixeira
+# 🌐 Portfólio Dev — @DevWebFelipe
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](#)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](#)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](#)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](#)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](#)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=fff)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=fff)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://devwebfelipe.github.io/PortifolioDev/)
 
-Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi com foco em interfaces web modernas, responsivas e bem estruturadas.
+Este é meu portfólio principal, construído com dedicação, atenção aos detalhes e constante evolução. É aqui que centralizo os projetos que desenvolvi ao longo da minha jornada como desenvolvedor front-end e, futuramente, full stack.
 
----
-
-## 🚀 Projetos em Destaque
-
-### 📌 Landing Page JavaScript
-
-![Landing Page](./assets/screenshots/landingpage.png)
-
-🔗 **Acesse**: [landingpagejavascript.netlify.app](https://landingpagejavascript.netlify.app/)
-
-> Landing page responsiva com animações e foco em UI/UX utilizando HTML, CSS e JavaScript.
+🔗 [Acesse meu portfólio ao vivo](https://devwebfelipe.github.io/PortifolioDev/)
 
 ---
 
-### 📌 Tributo Game of Thrones
+## ✨ Propósito do projeto
 
-![Tributo GoT](./assets/screenshots/tributogot.png)
+O objetivo deste portfólio é apresentar, de forma profissional, meus projetos, habilidades técnicas, tecnologias dominadas e aprendizados práticos. Ele é o **meu cartão de visitas digital**, construído com:
 
-🔗 **Acesse**: [tributogot.netlify.app](https://tributogot.netlify.app/)
+- **HTML5 e CSS3 puros**
+- Estrutura semântica e acessível
+- Layout responsivo para diferentes dispositivos
+- Animações visuais e interativas (ex: efeito Matrix, animações suaves)
+- Códigos organizados, comentados e reutilizáveis
 
-> Página tributo desenvolvida para praticar semântica HTML e estilização CSS com foco visual.
-
----
-
-### 📌 Tributo Game of Thrones
-
-![Sobre mim](./assets/screenshots/sobremim.png)
-
-🔗 **Acesse**: [devfelipe.netlify.app](https://devfelipe.netlify.app/)
-
-> Página criada para contar um pouco sobre quem sou profissionalmente
+Este projeto está em constante evolução e é atualizado sempre que aprendo algo novo que posso aplicar para torná-lo mais moderno, funcional ou elegante.
 
 ---
 
-## 🛠️ Tecnologias & Ferramentas
-
-- HTML5, CSS3, JavaScript ES6+
-- Node.js & TypeScript
-- Python (estudos atuais)
-- Git & GitHub
-- VS Code
-- Figma
-
-## 💡 Funcionalidades
-
-- Efeito Matrix interativo com botão de pausa
-- Layout responsivo e adaptado para mobile
-- Separação modular de estilos por seção
-
----
-
-## 👨‍💻 Sobre Mim
-
-Sou desenvolvedor apaixonado por tecnologia e boas práticas de código. Tenho focado em projetos web para consolidar habilidades e me manter atualizado com as tendências de mercado.
-
-- 🎓 Engenharia de Software (em andamento)
-- 📍 Santa Catarina, Brasil
-- 🔗 [LinkedIn](https://www.linkedin.com/in/felipe-teixeira-460464110/)
-- 🔗 [GitHub](https://github.com/DevWebFelipe)
-- 🌐 [Sobre mim](https://devfelipe.netlify.app/)
-
----
-
-## 🧪 Como Rodar os Projetos Localmente
+## 📁 Estrutura
 
 ```bash
-git clone https://github.com/DevWebFelipe/portfolio
+📦PortifolioDev
+ ┣ 📂assets
+ ┃ ┣ 📂fonts
+ ┃ ┣ 📂icons
+ ┃ ┗ 📂images
+ ┣ 📜index.html
+ ┣ 📜style.css
+ ┗ 📜script.js
 ```
 
-📬 Entre em contato para feedbacks, dúvidas ou colaborações:
+---
 
-- 📧 felipe.flptxr@gmail.com
-- 📱 (48) 99841-2807
+## 🖼️ Projetos incluídos
+
+Meu portfólio inclui links diretos para os projetos que desenvolvi. Cada um deles representa um conjunto de habilidades aplicadas em desafios práticos.
+
+| Projeto                  | Repositório                                                          | Deploy                                                                   |
+| ------------------------ | -------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **LP de Patins Animada** | [GitHub](https://github.com/DevWebFelipe/LPdePatinsAnimada)          | [Ver online](https://devwebfelipe.github.io/LPdePatinsAnimada/)          |
+| **LP de Produto**        | [GitHub](https://github.com/DevWebFelipe/LPdeProduto)                | [Ver online](https://devwebfelipe.github.io/LPdeProduto/)                |
+| **Perfil de Viagens**    | [GitHub](https://github.com/DevWebFelipe/PerfilDeViagens)            | [Ver online](https://devwebfelipe.github.io/PerfilDeViagens/)            |
+| **Desafio Rocketseat**   | [GitHub](https://github.com/DevWebFelipe/PortifolioDevDesafioRocket) | [Ver online](https://devwebfelipe.github.io/PortifolioDevDesafioRocket/) |
+| **Tech News**            | [GitHub](https://github.com/DevWebFelipe/TechNews)                   | [Ver online](https://devwebfelipe.github.io/TechNews/)                   |
+| **Receita Culinária**    | [GitHub](https://github.com/DevWebFelipe/Receita)                    | [Ver online](https://devwebfelipe.github.io/Receita/)                    |
+| **Pontos Turísticos**    | [GitHub](https://github.com/DevWebFelipe/PontosTuristicos)           | [Ver online](https://devwebfelipe.github.io/PontosTuristicos/)           |
+
+---
+
+## 🧠 Aprendizados aplicados
+
+Durante a construção deste portfólio, pratiquei e aprimorei:
+
+- Responsividade com media queries
+- Animações com `@keyframes` e transições CSS
+- Organização de código com classes e variáveis CSS
+- Boas práticas de nomeação e estrutura de diretórios
+- Acessibilidade e semântica HTML
+- Deploy com GitHub Pages
+
+---
+
+## 🚀 Como executar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/DevWebFelipe/PortifolioDev.git
+
+# Acesse a pasta do projeto
+cd PortifolioDev
+
+# Abra o index.html no navegador
+```
+
+---
+
+## 🧩 Futuras atualizações
+
+Este projeto está em **constante desenvolvimento**. Sempre que aprendo algo novo, procuro aplicar neste portfólio para deixá-lo mais completo e refinado.
+
+---
+
+## 📄 Licença
+
+Distribuído sob a licença MIT. Sinta-se à vontade para utilizar como base de estudo.
+
+---
+
+Desenvolvido com 💙 por [@DevWebFelipe](https://github.com/DevWebFelipe)
