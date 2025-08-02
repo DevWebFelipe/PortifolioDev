@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   canvas.width = window.innerWidth
   canvas.height = window.innerHeight
 
-  const binary = ["0", "1"]
+  const binary = ["ﾊ", "ﾐ", "ﾋ", "ｳ", "ｼ", "ﾅ", "ﾓ", "ﾆ", "ｻ", "ﾜ"]
   const fontSize = 16
   let columns = canvas.width / fontSize
   let drops = Array.from({ length: columns }).fill(1)
