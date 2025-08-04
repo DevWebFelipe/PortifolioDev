@@ -30,7 +30,7 @@
 }
 
 #matrixCanvas.paused {
-  opacity: 0.4; /* valor que você achar elegante */
+  opacity: 0.8;
 }
 
 .btn-toggle-matrix {

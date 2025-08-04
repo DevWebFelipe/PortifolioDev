@@ -1,6 +1,11 @@
-#footer {
-  /*padding: var(--spacing-lg) 0;*/
+:root {
+  --lime: #00ff99;
+  --gradient-border: linear-gradient(90deg, #00ffcc, #00ff66);
+  --bg-glass: rgba(40, 40, 40, 0.5);
+  --blur: blur(8px);
+}
 
+#footer {
   background-image: url("../img/Background_Contacts.png");
   background-size: cover;
   background-position: center;
@@ -33,18 +38,43 @@
 
     & li {
       max-width: 420px;
-      background-color: var(--gray-400);
-      border: 1px solid var(--gray-200);
-      border-radius: 10px;
-      transition: transform 850ms;
+      position: relative;
+      background: rgba(40, 40, 40, 0.5); /* translúcido */
+      border-radius: 12px;
+      border: 2px solid transparent;
+      background-clip: padding-box;
+      backdrop-filter: blur(8px);
+      overflow: hidden;
+      transition: transform 0.6s ease, box-shadow 0.4s ease;
+
+      &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        padding: 2px;
+        border-radius: 12px;
+
+        background: linear-gradient(
+          90deg,
+          #00ffcc,
+          #00ff66
+        ); /* gradiente neon */
+
+        -webkit-mask: linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: destination-out;
+
+        mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        mask-composite: exclude;
+        mask-composite: exclude;
+        pointer-events: none;
+        z-index: 1;
+      }
 
       &:hover {
-        transform: scale(1.1);
-        border: 1px solid var(--lime);
-        box-shadow: rgba(0, 255, 0, 0.25) 3px 3px 15px,
-          rgba(0, 255, 0, 0.25) -3px -3px 15px,
-          rgba(0, 255, 0, 0.25) -3px 3px 15px,
-          rgba(0, 255, 0, 0.25) 3px -3px 15px;
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(0, 255, 153, 0.3),
+          0 0 10px rgba(0, 255, 153, 0.4);
 
         & span {
           color: var(--lime);
@@ -57,33 +87,26 @@
         align-items: center;
         gap: 8px;
 
-        /*justify-content: space-between;*/
-        & .icon-mail {
+        & span[class^="icon-"] {
           height: 32px;
           width: 32px;
+          transition: filter 0.3s ease;
+        }
+
+        & .icon-mail {
           background-image: url("../icons/EnvelopeSimple.svg");
-          transition: background-image 0.3s;
         }
 
         & .icon-instagram {
-          height: 32px;
-          width: 32px;
           background-image: url("../icons/InstagramLogo.svg");
-          transition: background-image 0.3s;
         }
 
         & .icon-github {
-          height: 32px;
-          width: 32px;
           background-image: url("../icons/GitHub.svg");
-          transition: background-image 0.3s;
         }
 
         & .icon-linkedeen {
-          height: 32px;
-          width: 32px;
           background-image: url("../icons/LinkedinLogo.svg");
-          transition: background-image 0.3s;
         }
 
         & .external-icon {
@@ -116,6 +139,10 @@
 
           & .external-icon {
             background-image: url("../icons/ArrowUpRightHover.svg");
+          }
+
+          & span[class^="icon-"] {
+            filter: brightness(1.5);
           }
         }
       }

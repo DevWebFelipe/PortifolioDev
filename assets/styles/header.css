@@ -53,6 +53,12 @@
       animation-duration: 2.7s;
       animation-delay: 0.1s;
 
+      transition: all 1s ease-in-out;
+
+      &:hover {
+        transform: rotate(360deg) scale(1.5);
+      }
+
       & img:nth-child(1) {
         border-radius: 50%;
         width: 7rem;
@@ -84,6 +90,39 @@
       animation-duration: 2.7s;
       animation-delay: 2s;
 
+      .tech-item {
+        animation-name: techPulse;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        transform-origin: center;
+      }
+
+      .tech-item:nth-child(1) {
+        animation-delay: 2.5s;
+      }
+
+      .tech-item:nth-child(2) {
+        animation-delay: 2.9s;
+      }
+
+      .tech-item:nth-child(3) {
+        animation-delay: 3.3s;
+      }
+
+      .tech-item:nth-child(4) {
+        animation-delay: 3.7s;
+      }
+
+      .tech-item:nth-child(5) {
+        animation-delay: 4.1s;
+      }
+
+      .tech-item:nth-child(6) {
+        animation-delay: 4.5s;
+      }
+
       & .tech-item {
         background-color: var(--gray-400);
         border-radius: 3rem;
@@ -94,11 +133,11 @@
 
         padding: 0.5rem 1rem;
 
-        transition: transform 550ms;
+        transition: all 300ms ease-in-out;
 
         &:hover {
           border-color: var(--lime);
-          transform: scale(1.1);
+          scale: 1.1;
         }
       }
 
@@ -121,8 +160,29 @@
 
     & img {
       animation: bounce 2s infinite;
-      animation-delay: 4.5s;
+      animation-delay: 5.7s;
     }
+  }
+}
+
+@keyframes techPulse {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+    box-shadow: rgba(43, 255, 0, 0.5) 0px 5px 15px;
+  }
+
+  50% {
+    transform: scale(1.15);
+    filter: brightness(1.6);
+    box-shadow: 0 0 25px rgba(0, 255, 153, 0.6), 0 0 10px rgba(0, 255, 153, 0.4);
+    border-color: var(--lime);
+  }
+
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+    box-shadow: rgba(43, 255, 0, 0.5) 0px 5px 15px;
   }
 }
 

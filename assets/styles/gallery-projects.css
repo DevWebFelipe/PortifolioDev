@@ -10,7 +10,24 @@
 
     animation: image-appear linear backwards;
     animation-timeline: view();
-    animation-range: 20% 40%;
+    animation-range: 10% 30%;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      padding: 1px;
+      border-radius: inherit;
+      background: linear-gradient(270deg, #00ffcc, #00ff66, #00ffcc);
+      background-size: 600% 600%;
+      animation: borderPulse 6s ease infinite;
+      z-index: -1;
+      mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      mask-composite: exclude;
+      -webkit-mask-composite: destination-out;
+    }
 
     & figure {
       position: relative;
