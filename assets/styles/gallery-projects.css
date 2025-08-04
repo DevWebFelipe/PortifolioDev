@@ -10,7 +10,7 @@
 
     animation: image-appear linear backwards;
     animation-timeline: view();
-    animation-range: 100px 300px;
+    animation-range: 20% 40%;
 
     & figure {
       position: relative;
