@@ -53,6 +53,10 @@ p {
   font: var(--text-md);
 }
 
+.text-lg {
+  font: var(--text-lg);
+}
+
 .text-highlight {
   color: var(--lime);
 }

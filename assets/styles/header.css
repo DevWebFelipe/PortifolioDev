@@ -16,11 +16,29 @@
 
       & span {
         margin-bottom: 0.5rem;
+        opacity: 0;
+
+        opacity: 0;
+        animation: fadeInHeader forwards;
+        animation-duration: 2.7s;
+        animation-delay: 0.5s;
       }
 
       & h1 {
         margin-top: 1.25rem;
         margin-bottom: 1.25rem;
+
+        opacity: 0;
+        animation: fadeInHeader forwards;
+        animation-duration: 2.7s;
+        animation-delay: 1s;
+      }
+
+      & p {
+        opacity: 0;
+        animation: fadeInHeader forwards;
+        animation-duration: 2.7s;
+        animation-delay: 1.5s;
       }
     }
 
@@ -29,6 +47,11 @@
       height: 8rem;
       position: relative;
       margin-bottom: 3.5rem;
+
+      opacity: 0;
+      animation: fadeInHeader forwards;
+      animation-duration: 2.7s;
+      animation-delay: 0.1s;
 
       & img:nth-child(1) {
         border-radius: 50%;
@@ -56,6 +79,11 @@
       margin-top: 5rem;
       justify-content: center;
 
+      opacity: 0;
+      animation: fadeInHeader forwards;
+      animation-duration: 2.7s;
+      animation-delay: 2s;
+
       & .tech-item {
         background-color: var(--gray-400);
         border-radius: 3rem;
@@ -82,19 +110,29 @@
   }
 
   & .scroll-down-icon {
+    opacity: 0;
+    animation: fadeInHeader forwards;
+    animation-duration: 2.7s;
+    animation-delay: 2.5s;
+
     margin-top: 5rem;
     bottom: 10rem;
     left: 50%;
 
     & img {
-      width: 2rem;
-      height: 2rem;
+      animation: bounce 2s infinite;
+      animation-delay: 4.5s;
     }
   }
 }
 
-.bounce-animation {
-  animation: bounce 2s infinite;
+@keyframes fadeInHeader {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes bounce {
@@ -104,6 +142,9 @@
   }
   50% {
     transform: translateY(2rem);
+    filter: drop-shadow(0px 20px 40px rgba(255, 255, 255, 0.8))
+      drop-shadow(0px 5px 60px rgba(255, 255, 255, 0.2))
+      drop-shadow(0 0 20px rgba(255, 255, 255, 0.7));
   }
 }
 

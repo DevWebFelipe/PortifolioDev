@@ -31,22 +31,23 @@
   --font-family-subtitle: "Inconsolata", sans-serif;
   --font-family-text: "Maven Pro", sans-serif;
 
-  --title-lg: 700 56px/120% var(--font-family-title);
-  --title-md: 700 24px/120% var(--font-family-title);
-  --title-sm: 700 16px/120% var(--font-family-title);
+  --title-lg: 700 3.5rem/120% var(--font-family-title);
+  --title-md: 700 1.5rem/120% var(--font-family-title);
+  --title-sm: 700 1rem/120% var(--font-family-title);
 
-  --subtitle: 400 20px/120% var(--font-family-subtitle);
+  --subtitle: 400 1.25rem/120% var(--font-family-subtitle);
 
-  --text-md: 400 16px/140% var(--font-family-text);
-  --text-sm: 400 14px/140% var(--font-family-text);
+  --text-lg: 400 1.1rem/140% var(--font-family-text);
+  --text-md: 400 1rem/140% var(--font-family-text);
+  --text-sm: 400 0.875rem/140% var(--font-family-text);
 
   --fw-base: 400;
   --fw-md: 500;
   --fw-bold: 800;
 
-  --fs-sm: 0.875rem; /* 14px */
-  --fs-base: 1rem; /* 16px */
-  --fs-lg: 1.25rem; /* 20px */
-  --fs-xl: 1.5rem; /* 24px */
-  --fs-2xl: 2.5rem; /* 40px */
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2.5rem;
 }
