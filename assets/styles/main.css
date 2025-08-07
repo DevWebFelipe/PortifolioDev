@@ -12,6 +12,7 @@
 
     & h2 {
       margin-bottom: 3.5rem;
+      color: var(--gray-100);
     }
   }
 }
