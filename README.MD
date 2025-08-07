@@ -95,6 +95,8 @@ cd PortifolioDev
 # Abra o index.html no navegador
 ```
 
+---
+
 ## ✅ Qualidade do Código
 
 Este projeto foi avaliado com **nota 100** nas categorias:
