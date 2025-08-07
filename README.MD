@@ -105,6 +105,10 @@ Este projeto foi avaliado com **nota 100** nas categorias:
 - Boas Práticas
 - SEO
 
+E 98 em:
+
+- Desempenho
+
 A análise foi realizada utilizando a ferramenta [Lighthouse](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/lighthouse/) do **Microsoft Edge DevTools**, tanto para **desktop** quanto para **mobile**.
 
 ---
