@@ -95,6 +95,16 @@ cd PortifolioDev
 # Abra o index.html no navegador
 ```
 
+## ✅ Qualidade do Código
+
+Avaliado com **nota 100** nas categorias:
+- Acessibilidade
+- Boas Práticas
+- SEO
+
+Via [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) (ferramenta do Chrome DevTools) para **desktop e mobile**.
+
+
 ---
 
 ## 🧩 Futuras atualizações
