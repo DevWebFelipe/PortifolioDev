@@ -97,13 +97,13 @@ cd PortifolioDev
 
 ## ✅ Qualidade do Código
 
-Avaliado com **nota 100** nas categorias:
+Este projeto foi avaliado com **nota 100** nas categorias:
+
 - Acessibilidade
 - Boas Práticas
 - SEO
 
-Via [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) (ferramenta do Chrome DevTools) para **desktop e mobile**.
-
+A análise foi realizada utilizando a ferramenta [Lighthouse](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/lighthouse/) do **Microsoft Edge DevTools**, tanto para **desktop** quanto para **mobile**.
 
 ---
 
