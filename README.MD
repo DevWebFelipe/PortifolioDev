@@ -97,6 +97,18 @@ cd PortifolioDev
 
 ---
 
+## ✅ Qualidade do Código
+
+Este projeto foi avaliado com **nota 100** nas categorias:
+
+- Acessibilidade
+- Boas Práticas
+- SEO
+
+A análise foi realizada utilizando a ferramenta [Lighthouse](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/lighthouse/) do **Microsoft Edge DevTools**, tanto para **desktop** quanto para **mobile**.
+
+---
+
 ## 🧩 Futuras atualizações
 
 Este projeto está em **constante desenvolvimento**. Sempre que aprendo algo novo, procuro aplicar neste portfólio para deixá-lo mais completo e refinado.
