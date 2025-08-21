@@ -60,6 +60,9 @@ Meu portfólio inclui links diretos para os projetos que desenvolvi. Cada um del
 
 | Projeto                  | Repositório                                                          | Deploy                                                                   |
 | ------------------------ | -------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Lista de compras**     | [GitHub](https://github.com/DevWebFelipe/ListaDeCompras)             | [Ver online](https://devwebfelipe.github.io/ListaDeCompras/)             |
+| **Converter moeda**      | [GitHub](https://github.com/DevWebFelipe/ConverterMoeda)             | [Ver online](https://devwebfelipe.github.io/ConverterMoeda/)             |
+| **Clube de assinatura**  | [GitHub](https://github.com/DevWebFelipe/ClubeDeAssinatura)          | [Ver online](https://devwebfelipe.github.io/ClubeDeAssinatura/)          |
 | **LP de Patins Animada** | [GitHub](https://github.com/DevWebFelipe/LPdePatinsAnimada)          | [Ver online](https://devwebfelipe.github.io/LPdePatinsAnimada/)          |
 | **LP de Produto**        | [GitHub](https://github.com/DevWebFelipe/LPdeProduto)                | [Ver online](https://devwebfelipe.github.io/LPdeProduto/)                |
 | **Perfil de Viagens**    | [GitHub](https://github.com/DevWebFelipe/PerfilDeViagens)            | [Ver online](https://devwebfelipe.github.io/PerfilDeViagens/)            |
