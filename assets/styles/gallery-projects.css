@@ -1,12 +1,12 @@
 #gallery-projects {
   & .card {
-    max-width: 400px;
+    max-width: 380px;
     background-color: rgba(5, 71, 5, 0.747);
     border: 1px solid var(--gray-200);
     padding-inline: 0.75rem;
     padding-block: 0.75rem;
     border-radius: 8px;
-    transition: transform 850ms;
+    transition: all 650ms;
 
     animation: image-appear linear backwards;
     animation-timeline: view();
@@ -70,7 +70,7 @@
     }
 
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.05);
       border: 1px solid var(--lime);
 
       box-shadow: rgba(0, 255, 0, 0.25) 3px 3px 15px,
