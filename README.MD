@@ -60,6 +60,8 @@ Meu portfólio inclui links diretos para os projetos que desenvolvi. Cada um del
 
 | Projeto                  | Repositório                                                          | Deploy                                                                   |
 | ------------------------ | -------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Gestor de rotina**     | [GitHub](https://github.com/DevWebFelipe/Daily)                      | [Ver online](https://devwebfelipe.github.io/Daily/)                      |
+| **Refund**               | [GitHub](https://github.com/DevWebFelipe/Refund)                     | [Ver online](https://devwebfelipe.github.io/Refund/)                     |
 | **Lista de compras**     | [GitHub](https://github.com/DevWebFelipe/ListaDeCompras)             | [Ver online](https://devwebfelipe.github.io/ListaDeCompras/)             |
 | **Converter moeda**      | [GitHub](https://github.com/DevWebFelipe/ConverterMoeda)             | [Ver online](https://devwebfelipe.github.io/ConverterMoeda/)             |
 | **Clube de assinatura**  | [GitHub](https://github.com/DevWebFelipe/ClubeDeAssinatura)          | [Ver online](https://devwebfelipe.github.io/ClubeDeAssinatura/)          |
